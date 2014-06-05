@@ -3,6 +3,8 @@ FeSpringFlowLayout
 
 Make collection cell fell naturally.
 
+![Demo](http://s27.postimg.org/v73ilcnir/Fe_Spring_Flow_Layout.gif)
+
 ======================
 ## In Brief
 FeSpringFlowLayout is subclass of UICollectionViewFlowLayout.
