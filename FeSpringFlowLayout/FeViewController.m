@@ -73,6 +73,31 @@
     UICollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:kFe_Cell_ID forIndexPath:indexPath];
     cell.backgroundColor = [UIColor grayColor];
     
+    // Set color
+    UIColor *color = [self colorGradientBetweenColor:[UIColor redColor] secondColor:[UIColor yellowColor] atRow:indexPath.row];
+    cell.backgroundColor = color;
+    
     return cell;
+}
+
+#pragma mark - Color
+-(UIColor *) colorGradientBetweenColor:(UIColor *) firstColor secondColor:(UIColor * ) secondColor atRow:(NSInteger)row
+{
+    /*
+    public static String progressiveColor(int value, int all){
+        
+        int red = 255 - (int)((float)(value*255)/(float)all);
+        int green = (int)((float)(value*255)/(float)all);
+        return String.format("#%06X", (0xFFFFFF & Color.argb(255, red, green, 0)));
+        
+    }
+      */
+    NSInteger value = row;
+    NSInteger all = 30;
+    
+    int red = 255 - (int)((float)(value*255)/(float)all);
+    int green = (int)((float)(value*255)/(float)all);
+    
+    return [UIColor colorWithRed:(float)red / 255.0f green:(float)green / 255.0f blue:0 alpha:1];
 }
 @end
