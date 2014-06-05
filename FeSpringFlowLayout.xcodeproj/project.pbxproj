@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA62AC45194043BE001F256E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC44194043BE001F256E /* Foundation.framework */; };
+		BA62AC47194043BE001F256E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC46194043BE001F256E /* CoreGraphics.framework */; };
+		BA62AC49194043BE001F256E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC48194043BE001F256E /* UIKit.framework */; };
+		BA62AC4F194043BE001F256E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA62AC4D194043BE001F256E /* InfoPlist.strings */; };
+		BA62AC51194043BE001F256E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62AC50194043BE001F256E /* main.m */; };
+		BA62AC55194043BE001F256E /* FeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62AC54194043BE001F256E /* FeAppDelegate.m */; };
+		BA62AC58194043BE001F256E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA62AC56194043BE001F256E /* Main.storyboard */; };
+		BA62AC5B194043BE001F256E /* FeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62AC5A194043BE001F256E /* FeViewController.m */; };
+		BA62AC5D194043BE001F256E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA62AC5C194043BE001F256E /* Images.xcassets */; };
+		BA62AC64194043BE001F256E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC63194043BE001F256E /* XCTest.framework */; };
+		BA62AC65194043BF001F256E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC44194043BE001F256E /* Foundation.framework */; };
+		BA62AC66194043BF001F256E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA62AC48194043BE001F256E /* UIKit.framework */; };
+		BA62AC6E194043BF001F256E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA62AC6C194043BF001F256E /* InfoPlist.strings */; };
+		BA62AC70194043BF001F256E /* FeSpringFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62AC6F194043BF001F256E /* FeSpringFlowLayoutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA62AC67194043BF001F256E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA62AC39194043BE001F256E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA62AC40194043BE001F256E;
+			remoteInfo = FeSpringFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA62AC41194043BE001F256E /* FeSpringFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeSpringFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA62AC44194043BE001F256E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA62AC46194043BE001F256E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA62AC48194043BE001F256E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA62AC4C194043BE001F256E /* FeSpringFlowLayout-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeSpringFlowLayout-Info.plist"; sourceTree = "<group>"; };
+		BA62AC4E194043BE001F256E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA62AC50194043BE001F256E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA62AC52194043BE001F256E /* FeSpringFlowLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeSpringFlowLayout-Prefix.pch"; sourceTree = "<group>"; };
+		BA62AC53194043BE001F256E /* FeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeAppDelegate.h; sourceTree = "<group>"; };
+		BA62AC54194043BE001F256E /* FeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeAppDelegate.m; sourceTree = "<group>"; };
+		BA62AC57194043BE001F256E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA62AC59194043BE001F256E /* FeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeViewController.h; sourceTree = "<group>"; };
+		BA62AC5A194043BE001F256E /* FeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeViewController.m; sourceTree = "<group>"; };
+		BA62AC5C194043BE001F256E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA62AC62194043BE001F256E /* FeSpringFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeSpringFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA62AC63194043BE001F256E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA62AC6B194043BF001F256E /* FeSpringFlowLayoutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FeSpringFlowLayoutTests-Info.plist"; sourceTree = "<group>"; };
+		BA62AC6D194043BF001F256E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA62AC6F194043BF001F256E /* FeSpringFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeSpringFlowLayoutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA62AC3E194043BE001F256E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC47194043BE001F256E /* CoreGraphics.framework in Frameworks */,
+				BA62AC49194043BE001F256E /* UIKit.framework in Frameworks */,
+				BA62AC45194043BE001F256E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA62AC5F194043BE001F256E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC64194043BE001F256E /* XCTest.framework in Frameworks */,
+				BA62AC66194043BF001F256E /* UIKit.framework in Frameworks */,
+				BA62AC65194043BF001F256E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA62AC38194043BE001F256E = {
+			isa = PBXGroup;
+			children = (
+				BA62AC4A194043BE001F256E /* FeSpringFlowLayout */,
+				BA62AC69194043BF001F256E /* FeSpringFlowLayoutTests */,
+				BA62AC43194043BE001F256E /* Frameworks */,
+				BA62AC42194043BE001F256E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA62AC42194043BE001F256E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC41194043BE001F256E /* FeSpringFlowLayout.app */,
+				BA62AC62194043BE001F256E /* FeSpringFlowLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA62AC43194043BE001F256E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC44194043BE001F256E /* Foundation.framework */,
+				BA62AC46194043BE001F256E /* CoreGraphics.framework */,
+				BA62AC48194043BE001F256E /* UIKit.framework */,
+				BA62AC63194043BE001F256E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA62AC4A194043BE001F256E /* FeSpringFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC53194043BE001F256E /* FeAppDelegate.h */,
+				BA62AC54194043BE001F256E /* FeAppDelegate.m */,
+				BA62AC56194043BE001F256E /* Main.storyboard */,
+				BA62AC59194043BE001F256E /* FeViewController.h */,
+				BA62AC5A194043BE001F256E /* FeViewController.m */,
+				BA62AC5C194043BE001F256E /* Images.xcassets */,
+				BA62AC4B194043BE001F256E /* Supporting Files */,
+			);
+			path = FeSpringFlowLayout;
+			sourceTree = "<group>";
+		};
+		BA62AC4B194043BE001F256E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC4C194043BE001F256E /* FeSpringFlowLayout-Info.plist */,
+				BA62AC4D194043BE001F256E /* InfoPlist.strings */,
+				BA62AC50194043BE001F256E /* main.m */,
+				BA62AC52194043BE001F256E /* FeSpringFlowLayout-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA62AC69194043BF001F256E /* FeSpringFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC6F194043BF001F256E /* FeSpringFlowLayoutTests.m */,
+				BA62AC6A194043BF001F256E /* Supporting Files */,
+			);
+			path = FeSpringFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		BA62AC6A194043BF001F256E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA62AC6B194043BF001F256E /* FeSpringFlowLayoutTests-Info.plist */,
+				BA62AC6C194043BF001F256E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA62AC40194043BE001F256E /* FeSpringFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA62AC73194043BF001F256E /* Build configuration list for PBXNativeTarget "FeSpringFlowLayout" */;
+			buildPhases = (
+				BA62AC3D194043BE001F256E /* Sources */,
+				BA62AC3E194043BE001F256E /* Frameworks */,
+				BA62AC3F194043BE001F256E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FeSpringFlowLayout;
+			productName = FeSpringFlowLayout;
+			productReference = BA62AC41194043BE001F256E /* FeSpringFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA62AC61194043BE001F256E /* FeSpringFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA62AC76194043BF001F256E /* Build configuration list for PBXNativeTarget "FeSpringFlowLayoutTests" */;
+			buildPhases = (
+				BA62AC5E194043BE001F256E /* Sources */,
+				BA62AC5F194043BE001F256E /* Frameworks */,
+				BA62AC60194043BE001F256E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA62AC68194043BF001F256E /* PBXTargetDependency */,
+			);
+			name = FeSpringFlowLayoutTests;
+			productName = FeSpringFlowLayoutTests;
+			productReference = BA62AC62194043BE001F256E /* FeSpringFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA62AC39194043BE001F256E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fe;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Fe;
+				TargetAttributes = {
+					BA62AC61194043BE001F256E = {
+						TestTargetID = BA62AC40194043BE001F256E;
+					};
+				};
+			};
+			buildConfigurationList = BA62AC3C194043BE001F256E /* Build configuration list for PBXProject "FeSpringFlowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA62AC38194043BE001F256E;
+			productRefGroup = BA62AC42194043BE001F256E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA62AC40194043BE001F256E /* FeSpringFlowLayout */,
+				BA62AC61194043BE001F256E /* FeSpringFlowLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA62AC3F194043BE001F256E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC5D194043BE001F256E /* Images.xcassets in Resources */,
+				BA62AC4F194043BE001F256E /* InfoPlist.strings in Resources */,
+				BA62AC58194043BE001F256E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA62AC60194043BE001F256E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC6E194043BF001F256E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA62AC3D194043BE001F256E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC51194043BE001F256E /* main.m in Sources */,
+				BA62AC5B194043BE001F256E /* FeViewController.m in Sources */,
+				BA62AC55194043BE001F256E /* FeAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA62AC5E194043BE001F256E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA62AC70194043BF001F256E /* FeSpringFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA62AC68194043BF001F256E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA62AC40194043BE001F256E /* FeSpringFlowLayout */;
+			targetProxy = BA62AC67194043BF001F256E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA62AC4D194043BE001F256E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA62AC4E194043BE001F256E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA62AC56194043BE001F256E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA62AC57194043BE001F256E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA62AC6C194043BF001F256E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA62AC6D194043BF001F256E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA62AC71194043BF001F256E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA62AC72194043BF001F256E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA62AC74194043BF001F256E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeSpringFlowLayout/FeSpringFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "FeSpringFlowLayout/FeSpringFlowLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA62AC75194043BF001F256E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeSpringFlowLayout/FeSpringFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "FeSpringFlowLayout/FeSpringFlowLayout-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA62AC77194043BF001F256E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeSpringFlowLayout.app/FeSpringFlowLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeSpringFlowLayout/FeSpringFlowLayout-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FeSpringFlowLayoutTests/FeSpringFlowLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA62AC78194043BF001F256E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FeSpringFlowLayout.app/FeSpringFlowLayout";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FeSpringFlowLayout/FeSpringFlowLayout-Prefix.pch";
+				INFOPLIST_FILE = "FeSpringFlowLayoutTests/FeSpringFlowLayoutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA62AC3C194043BE001F256E /* Build configuration list for PBXProject "FeSpringFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA62AC71194043BF001F256E /* Debug */,
+				BA62AC72194043BF001F256E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA62AC73194043BF001F256E /* Build configuration list for PBXNativeTarget "FeSpringFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA62AC74194043BF001F256E /* Debug */,
+				BA62AC75194043BF001F256E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA62AC76194043BF001F256E /* Build configuration list for PBXNativeTarget "FeSpringFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA62AC77194043BF001F256E /* Debug */,
+				BA62AC78194043BF001F256E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA62AC39194043BE001F256E /* Project object */;
+}
