@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface FeSpringFlowLayout : UICollectionViewFlowLayout
-
+-(id) init;
+-(id) initWithLength:(CGFloat) length damping:(CGFloat) damping frequency:(CGFloat) frequency;
 @end

@@ -22,8 +22,6 @@
 		BA62AC6E194043BF001F256E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA62AC6C194043BF001F256E /* InfoPlist.strings */; };
 		BA62AC70194043BF001F256E /* FeSpringFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA62AC6F194043BF001F256E /* FeSpringFlowLayoutTests.m */; };
 		BAAD39A61940734C008DD97D /* FeSpringFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD39A51940734C008DD97D /* FeSpringFlowLayout.m */; };
-		BAAD39A919407371008DD97D /* FeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD39A819407371008DD97D /* FeCollectionViewCell.m */; };
-		BAAD39AC19407393008DD97D /* FeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAAD39AB19407393008DD97D /* FeCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +56,6 @@
 		BA62AC6F194043BF001F256E /* FeSpringFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeSpringFlowLayoutTests.m; sourceTree = "<group>"; };
 		BAAD39A41940734C008DD97D /* FeSpringFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeSpringFlowLayout.h; sourceTree = "<group>"; };
 		BAAD39A51940734C008DD97D /* FeSpringFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeSpringFlowLayout.m; sourceTree = "<group>"; };
-		BAAD39A719407371008DD97D /* FeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeCollectionViewCell.h; sourceTree = "<group>"; };
-		BAAD39A819407371008DD97D /* FeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeCollectionViewCell.m; sourceTree = "<group>"; };
-		BAAD39AB19407393008DD97D /* FeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,9 +169,6 @@
 		BAAD39AA19407380008DD97D /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				BAAD39A719407371008DD97D /* FeCollectionViewCell.h */,
-				BAAD39A819407371008DD97D /* FeCollectionViewCell.m */,
-				BAAD39AB19407393008DD97D /* FeCollectionViewCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -261,7 +253,6 @@
 				BA62AC5D194043BE001F256E /* Images.xcassets in Resources */,
 				BA62AC4F194043BE001F256E /* InfoPlist.strings in Resources */,
 				BA62AC58194043BE001F256E /* Main.storyboard in Resources */,
-				BAAD39AC19407393008DD97D /* FeCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAAD39A919407371008DD97D /* FeCollectionViewCell.m in Sources */,
 				BA62AC51194043BE001F256E /* main.m in Sources */,
 				BA62AC5B194043BE001F256E /* FeViewController.m in Sources */,
 				BA62AC55194043BE001F256E /* FeAppDelegate.m in Sources */,

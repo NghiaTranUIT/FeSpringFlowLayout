@@ -8,9 +8,7 @@
 
 #import "FeViewController.h"
 #import "FeSpringFlowLayout.h"
-#import "FeCollectionViewCell.h"
-
-#define kFe_Cell_ID @"Cell"
+#define kFe_Cell_ID @"cell"
 
 @interface FeViewController () <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 @property (strong, nonatomic) UICollectionView *collectionView;
@@ -57,10 +55,7 @@
     _collectionView.delegate = self;
     _collectionView.dataSource = self;
     
-
-    // Register cell
-    [_collectionView registerNib:[UINib nibWithNibName:@"FeCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:kFe_Cell_ID];
-    
+    [_collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:kFe_Cell_ID];
     [self.view addSubview:_collectionView];
 }
 
@@ -75,8 +70,8 @@
 }
 -(UICollectionViewCell *) collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    FeCollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:kFe_Cell_ID forIndexPath:indexPath];
-    cell.subView.backgroundColor = [UIColor grayColor];
+    UICollectionViewCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:kFe_Cell_ID forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor grayColor];
     
     return cell;
 }
