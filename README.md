@@ -5,7 +5,7 @@ Make collection cell fell naturally.
 
 ![GIF](http://mkerala.com/u/di/R0TX/FeSpringFlowLayout.gif)
 
-[![Youtube](http://nghiatran.me/wp-content/uploads/2014/06/FeSpringFlowLayout_Photo.png)](https://www.youtube.com/watch?v=viB-S-UbL5U&feature=youtu.be)
+Youtube : https://www.youtube.com/watch?v=viB-S-UbL5U&feature=youtu.be
 
 ======================
 ## In Brief
@@ -29,7 +29,7 @@ And compatible with ARC or non-ARC.
 You should set itemSize's width as collectionView's width.
 
 ======================
-## How to using
+## How to use
 FeSpringFlowLayout support two initialization.
 
 After init, you can set property similar UICollectionViewFlowLayout
