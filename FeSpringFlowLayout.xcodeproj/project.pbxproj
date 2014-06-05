@@ -115,7 +115,6 @@
 		BA62AC4A194043BE001F256E /* FeSpringFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
-				BAAD39AA19407380008DD97D /* Cell */,
 				BAAD39A3194072EA008DD97D /* FeSpringFlowLayout */,
 				BA62AC53194043BE001F256E /* FeAppDelegate.h */,
 				BA62AC54194043BE001F256E /* FeAppDelegate.m */,
@@ -164,13 +163,6 @@
 				BAAD39A51940734C008DD97D /* FeSpringFlowLayout.m */,
 			);
 			name = FeSpringFlowLayout;
-			sourceTree = "<group>";
-		};
-		BAAD39AA19407380008DD97D /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

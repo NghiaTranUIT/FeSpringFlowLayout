@@ -83,15 +83,6 @@
 #pragma mark - Color
 -(UIColor *) colorGradientBetweenColor:(UIColor *) firstColor secondColor:(UIColor * ) secondColor atRow:(NSInteger)row
 {
-    /*
-    public static String progressiveColor(int value, int all){
-        
-        int red = 255 - (int)((float)(value*255)/(float)all);
-        int green = (int)((float)(value*255)/(float)all);
-        return String.format("#%06X", (0xFFFFFF & Color.argb(255, red, green, 0)));
-        
-    }
-      */
     NSInteger value = row;
     NSInteger all = 30;
     
